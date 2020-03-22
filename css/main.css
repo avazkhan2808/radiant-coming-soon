@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #262626;
+  position: relative;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+.wrapper {
+  padding: 4rem 10%;
+  color: #fff;
+  max-width: calc(1200px + 10%);
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blob-sm,
+.blob-lg {
+  position: absolute;
+  background: #2b2b2b;
+  border-radius: 50%;
+}
+
+.blob-sm {
+  width: 340px;
+  height: 340px;
+  bottom: -80px;
+  left: -120px;
+  z-index: -1;
+}
+
+.blob-lg {
+  width: 500px;
+  height: 500px;
+  right: -80px;
+  bottom: -160px;
+  z-index: -1;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.left {
+  width: 500px;
+  margin-bottom: 2rem;
+}
+
+.heading {
+  font-size: 52px;
+  position: relative;
+}
+.heading:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: #262626;
+  transform-origin: 100% 0;
+}
+
+.sub-heading {
+  font-size: 20px;
+  margin-top: 8px;
+  width: 30ch;
+  position: relative;
+}
+.sub-heading:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: #262626;
+  transform-origin: 100% 0;
+}
+
+.form-group {
+  margin-top: 4rem;
+}
+
+.form-group-input {
+  background: #232323;
+  color: #fff;
+  padding: 14px;
+  font-size: 20px;
+}
+
+.form-group-btn {
+  background: #00b894;
+  color: #fff;
+  padding: 14px 20px;
+  font-size: 19px;
+  cursor: pointer;
+  margin-left: -4px;
+  border-radius: 0 5px 5px 0;
+}
+
+.bar {
+  background: #2c2c2c;
+  height: 420px;
+  width: 28px;
+  display: flex;
+  border-radius: 20px;
+}
+.bar-inner {
+  background: #fdcb6e;
+  height: 200px;
+  width: 28px;
+  align-self: flex-end;
+  border-radius: 20px;
+}
+
+.rocket-img {
+  width: 400px;
+  margin-top: 4rem;
+}
+.rocket-img img {
+  max-width: 100%;
+}
+
+.overlay {
+  background-image: url("../img/space-600.jpg");
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.overlay img {
+  width: 400px;
+}
+
+/*# sourceMappingURL=main.css.map */
