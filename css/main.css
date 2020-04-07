@@ -110,6 +110,7 @@ input {
   color: #fff;
   padding: 14px;
   font-size: 20px;
+  width: 60%;
 }
 
 .form-group-btn {
@@ -146,7 +147,7 @@ input {
 }
 
 .overlay {
-  background-image: url("../img/space-600.jpg");
+  background-image: url("../img/space-700.jpg");
   background-position: center;
   background-size: cover;
   position: fixed;

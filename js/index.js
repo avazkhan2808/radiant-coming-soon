@@ -3,11 +3,11 @@
     const tl = gsap.timeline({ defaults: { ease: Expo.easeOut } });
     gsap.registerPlugin(CSSRulePlugin);
     tl.to('.overlay-rocket', {
-      duration: 2,
+      duration: 3,
       yPercent: -200,
       delay: 1,
     });
-    tl.to('.overlay', { duration: 2, yPercent: -100 }, '-=2');
+    tl.to('.overlay', { duration: 3, yPercent: -100 }, '-=2');
 
     tl.from('.rocket-img', { duration: 1, translateY: 400, opacity: 0 }, '-=2');
     tl.from('.bar-inner', { duration: 2, height: 0 }, '-=2');
